@@ -10,7 +10,7 @@ return(
     <>
     <section id="home" className="hero-section">
       <div className="container">
-        <img className="bg-shape" src={BgShape.src} alt="bg-shape" />
+        {/* <img className="bg-shape" src={BgShape.src} alt="bg-shape" /> */}
         <div className="hero-content">
           <div className="hero-content__text">
             <h4>Plan your trip now</h4>

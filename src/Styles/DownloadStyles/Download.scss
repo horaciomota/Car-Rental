@@ -1,0 +1,72 @@
+@use "../global" as *;
+
+.download-section .container  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row ;
+}
+
+.download-app {
+    width: auto;
+
+    @media (max-width: 1000px) {
+        display: none;
+    }
+}
+
+.download-app img {
+    width: auto;
+    height: 60vh;
+    object-fit: cover;
+    overflow: hidden;
+}
+    
+.download-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 55rem;
+  text-align: left;
+
+  @media (max-width: 700px) {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-size: $h2-size;
+    color: $text-black;
+  }
+
+  p {
+    font-size: $p-size;
+    color: $text-gray;
+    font-family: $text-font;
+    line-height: 1.5;
+  }
+
+  &__btns {
+    display: flex;
+    gap: 3rem;
+    margin-top: 2rem;
+
+    @media (max-width: 700px) {
+      justify-content: center;
+    }
+
+    @media (max-width: 550px) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    img {
+      width: 40%;
+      cursor: pointer;
+
+      @media (max-width: 550px) {
+        width: 22rem;
+      }
+    }
+  }
+}
