@@ -1,10 +1,9 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Home from "@/Pages/Home";
 
-export default function Home() {
+export default function page() {
   return (
     <>
-    <h1>hello world</h1>
+    <Home/>
     </>
   );
 }
