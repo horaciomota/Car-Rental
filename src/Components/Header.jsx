@@ -10,7 +10,7 @@ return(
     <>
     <section id="home" className="hero-section">
       <div className="container">
-        {/* <img className="bg-shape" src={BgShape.src} alt="bg-shape" /> */}
+        <img className="bg-shape" src={BgShape.src} alt="bg-shape" />
         <div className="hero-content">
           <div className="hero-content__text">
             <h4>Plan your trip now</h4>
@@ -22,16 +22,10 @@ return(
               flexible pick-up options and much more.
             </p>
             <div className="hero-content__text__btns">
-              <button
-                className="hero-content__text__btns__book-ride"
-                to="/"
-              >
-                Book Ride
-              </button>
-              <button className="hero-content__text__btns__learn-more" to="/">
-                Learn More 
-              </button>
-            </div>
+  <a href="#home">Book a ride&nbsp;</a>
+  &nbsp;&nbsp;
+  <a href="#home" id='btn-learnMore'>Learn more&nbsp;</a>
+</div>
           </div>
 
           {/* img */}
