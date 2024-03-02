@@ -1,0 +1,24 @@
+@use "../global" as *;
+
+.Banner-section {
+    display: flex;
+    align-items: center;
+    background: #000;
+    height: 30vh;
+    text-align: center;
+
+    h1 {
+        font-size: $h1-size;
+        color: white;
+        padding-bottom: 2rem;
+    }
+
+    h4 {
+        font-size: $h4-size;
+        color: white;
+    }
+
+    span {
+        color: $text-orange;
+    }
+}
