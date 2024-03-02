@@ -6,9 +6,21 @@
     background-color: $bg-gray;
     position: relative;
 
+
+    @media (max-width: 700px) {
+      height: auto;
+      }
+
 .container {
     display: flex;
     justify-content: space-between;
+
+
+    @media (max-width: 700px) {
+      flex-direction: column;
+      align-items: center;
+      gap: 4rem;
+      }
 }
 }
 
@@ -19,6 +31,7 @@
     max-width: 25rem;
     text-align: left;
     padding-top: 1rem;
+    
 
     h3 {
         font-size: $h3-size;
@@ -31,6 +44,11 @@
         font-family: $text-font;
         line-height: 1.5;
       }
+
+      @media (max-width: 700px) {
+      text-align: center;
+        }
 }
+
 
 
