@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Car Rental Website
 
-## Getting Started
+![Car Rental](https://user-images.githubusercontent.com/105128267/218077760-5694a4ac-4e37-4de7-b31f-268ccd27400a.png)
 
-First, run the development server:
+## About the project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A **car rental** website is an online platform that allows users to rent cars for personal or business use. The website provides an easy-to-use interface for searching, comparing, and reserving cars from a wide selection of vehicles that vary in make, model, size, and price.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Credits for the design go to [XpeedStudio](https://xpeedstudio.com/).
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+👉 Live Demo: [Live Demo](https://car-rental-ten.vercel.app/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Built with
 
-## Learn More
+- Next.js
+- Sass / Scss
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To run this project locally, follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. **Clone the repository:**
 
-## Deploy on Vercel
+   ```bash
+   git clone https://github.com/your-username/car-rental.git
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Navigate to the project directory:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   cd car-rental
+   ```
+
+3. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+## How to use
+
+1. **Run the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+2. **Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.**
+
+## Functionality
+
+This website allows users to:
+
+- View available cars for rent.
+- Search for cars based on various criteria.
+- Book and cancel car rentals.
+- View and submit testimonials.
+- Explore other features as per the design.
+
+## Screenshots of the Project 📸
+
+### Home Page 🏡
+
+![Home Page](https://user-images.githubusercontent.com/105128267/218077675-f50ac9ae-8d2c-4196-aed8-f4490e142960.png)
+
+---
